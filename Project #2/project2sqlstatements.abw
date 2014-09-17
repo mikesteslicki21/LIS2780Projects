@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="149" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">root</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="5" edit-time="21613" last-saved="1398792588" uid="59bc0bb6-ce4c-11e3-9cbc-e889523bb787">
+<version id="4" started="1398649117" uid="09fcc6e8-ce7d-11e3-9cbc-e889523bb787" auto="0" top-xid="79"/>
+<version id="5" started="1398792588" uid="dceb4e52-cfc3-11e3-83b6-9cd63f545ccc" auto="0" top-xid="149"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; bgcolor:transparent; widows:2; font-style:normal; text-indent:0in; text-position:normal; margin-bottom:0pt; font-weight:normal; line-height:1.0; text-align:left; font-variant:normal; text-decoration:none; margin-right:0pt; font-size:12pt; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="33" props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<p style="Normal" xid="34" props="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt">i.</p>
+<p style="Normal" xid="32" props="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt"><c></c> mysql&gt; SELECT stu_fname, stu_lname, stu_note FROM student WHERE stu_id=3; </p>
+<p style="Normal" xid="25" props="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt">+-----------+-----------+----------+</p>
+<p style="Normal" xid="26" props="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt">| stu_fname | stu_lname | stu_note |</p>
+<p style="Normal" xid="27" props="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt">+-----------+-----------+----------+</p>
+<p style="Normal" xid="28" props="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt">| laura     | casali    | NULL     |</p>
+<p style="Normal" xid="29" props="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt">+-----------+-----------+----------+</p>
+<p style="Normal" xid="30" props="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt">1 row in set (0.00 sec)</p>
+<p style="Normal" xid="31" props="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt"><c></c><c></c></p>
+<p style="Normal" xid="7" props="text-align:left; dom-dir:ltr">ii. <c></c></p>
+<p style="Normal" xid="35" props="text-align:left; dom-dir:ltr">mysql&gt; SELECT act_id, act_name, CONCAT('$',act_fee) AS' activity fee', act_note FROM activity ORDER BY act_fee DESC;<c></c></p>
+<p style="Normal" xid="36" props="text-align:left; dom-dir:ltr">+--------+--------------------------+--------------+----------+<c></c></p>
+<p style="Normal" xid="37" props="text-align:left; dom-dir:ltr">| act_id | act_name                 | Activity Fee | act_note |<c></c></p>
+<p style="Normal" xid="38" props="text-align:left; dom-dir:ltr">+--------+--------------------------+--------------+----------+<c></c></p>
+<p style="Normal" xid="39" props="text-align:left; dom-dir:ltr">|      5 | underwater basketweaving | $999.99      | NULL     |<c></c></p>
+<p style="Normal" xid="40" props="text-align:left; dom-dir:ltr">|      3 | skydiving                | $90.99       | NULL     |<c></c></p>
+<p style="Normal" xid="41" props="text-align:left; dom-dir:ltr">|      2 | golf                     | $78.99       | NULL     |<c></c></p>
+<p style="Normal" xid="42" props="text-align:left; dom-dir:ltr">|      4 | pottery                  | $40.79       | NULL     |<c></c></p>
+<p style="Normal" xid="43" props="text-align:left; dom-dir:ltr">|      1 | basketball               | $15.15       | NULL     |<c></c></p>
+<p style="Normal" xid="44" props="text-align:left; dom-dir:ltr">+--------+--------------------------+--------------+----------+<c></c></p>
+<p style="Normal" xid="45" props="text-align:left; dom-dir:ltr">5 rows in set, 1 warning (0.00 sec)<c></c></p>
+<p style="Normal" xid="46" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="47" props="text-align:left; dom-dir:ltr">iii. <c></c></p>
+<p style="Normal" xid="8" props="text-align:left; dom-dir:ltr">mysql&gt; SELECT stu_lname, stu_fname, GROUP_CONCAT(' ', a.act_name) AS 'Activities', GROUP_CONCAT('$',act_fee) AS 'Activity Fees', stu_note AS 'Notes'  FROM student s LEFT JOIN participant p ON s.stu_id = p.stu_id LEFT JOIN activity a ON p.act_id = a.act_id group by s.stu_id;</p>
+<p style="Normal" xid="70" props="text-align:left; dom-dir:ltr">+------------------+------------------------------------------+---------------------+---------------+</p>
+<p style="Normal" xid="71" props="text-align:left; dom-dir:ltr">| Name             | Activities                               | Total Activity Fees | Student Notes |</p>
+<p style="Normal" xid="72" props="text-align:left; dom-dir:ltr">+------------------+------------------------------------------+---------------------+---------------+</p>
+<p style="Normal" xid="73" props="text-align:left; dom-dir:ltr">| tassell, carlton |  golf, pottery, underwater basketweaving | $1119.77      | NULL          |</p>
+<p style="Normal" xid="74" props="text-align:left; dom-dir:ltr">| besner, vincent  |  skydiving, underwater basketweaving     | $1090.98   | NULL          |</p>
+<p style="Normal" xid="75" props="text-align:left; dom-dir:ltr">| casali, laura    |  pottery, underwater basketweaving       | $1040.78         | NULL          |</p>
+<p style="Normal" xid="76" props="text-align:left; dom-dir:ltr">| foster, clark    |  underwater basketweaving                | $999.99               | NULL          |</p>
+<p style="Normal" xid="77" props="text-align:left; dom-dir:ltr">| o'rourke, mickey |  basketball, pottery                     | $55.94                    | NULL          |</p>
+<p style="Normal" xid="78" props="text-align:left; dom-dir:ltr">+------------------+------------------------------------------+---------------------+---------------+</p>
+<p style="Normal" xid="79" props="text-align:left; dom-dir:ltr">5 rows in set (0.00 sec)</p>
+<p style="Normal" xid="69" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="9" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="101" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="102" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="103" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="104" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="105" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="106" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="107" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="108" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="109" props="text-align:left; dom-dir:ltr"><c></c>iv.</p>
+<p style="Normal" xid="80" props="text-align:left; dom-dir:ltr">mysql&gt; DELETE FROM participant WHERE stu_id=2 and act_id=5<c></c></p>
+<p style="Normal" xid="81" props="text-align:left; dom-dir:ltr">    -&gt; limit 1;<c></c></p>
+<p style="Normal" xid="82" props="text-align:left; dom-dir:ltr">Query OK, 1 row affected (0.01 sec)<c></c></p>
+<p style="Normal" xid="83" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="84" props="text-align:left; dom-dir:ltr">mysql&gt; SELECT * FROM participant<c></c></p>
+<p style="Normal" xid="85" props="text-align:left; dom-dir:ltr">    -&gt; ;<c></c></p>
+<p style="Normal" xid="86" props="text-align:left; dom-dir:ltr">+--------+--------+----------------+--------------+----------+<c></c></p>
+<p style="Normal" xid="87" props="text-align:left; dom-dir:ltr">| stu_id | act_id | par_start_date | par_end_date | par_note |<c></c></p>
+<p style="Normal" xid="88" props="text-align:left; dom-dir:ltr">+--------+--------+----------------+--------------+----------+<c></c></p>
+<p style="Normal" xid="89" props="text-align:left; dom-dir:ltr">|      1 |      2 | 2014-05-05     | 2014-08-20   | NULL     |<c></c></p>
+<p style="Normal" xid="90" props="text-align:left; dom-dir:ltr">|      1 |      4 | 2014-05-05     | 2014-08-20   | NULL     |<c></c></p>
+<p style="Normal" xid="91" props="text-align:left; dom-dir:ltr">|      1 |      5 | 2014-05-05     | 2014-08-20   | NULL     |<c></c></p>
+<p style="Normal" xid="92" props="text-align:left; dom-dir:ltr">|      2 |      3 | 2014-05-01     | 2015-08-16   | NULL     |<c></c></p>
+<p style="Normal" xid="93" props="text-align:left; dom-dir:ltr">|      3 |      4 | 2014-04-29     | 2015-04-29   | NULL     |<c></c></p>
+<p style="Normal" xid="94" props="text-align:left; dom-dir:ltr">|      3 |      5 | 2014-04-29     | 2015-04-29   | NULL     |<c></c></p>
+<p style="Normal" xid="95" props="text-align:left; dom-dir:ltr">|      4 |      5 | 2014-05-01     | 2014-08-07   | NULL     |<c></c></p>
+<p style="Normal" xid="96" props="text-align:left; dom-dir:ltr">|      5 |      1 | 2014-01-01     | 2015-01-01   | NULL     |<c></c></p>
+<p style="Normal" xid="97" props="text-align:left; dom-dir:ltr">|      5 |      4 | 2014-01-01     | 2015-01-01   | NULL     |<c></c></p>
+<p style="Normal" xid="98" props="text-align:left; dom-dir:ltr">+--------+--------+----------------+--------------+----------+<c></c></p>
+<p style="Normal" xid="99" props="text-align:left; dom-dir:ltr">9 rows in set (0.00 sec)<c></c></p>
+<p style="Normal" xid="110" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="111" props="text-align:left; dom-dir:ltr">v.<br/>mysql&gt; UPDATE student SET stu_lname='Stellar' WHERE stu_id=2;<c></c></p>
+<p style="Normal" xid="119" props="text-align:left; dom-dir:ltr">Query OK, 1 row affected (0.04 sec)<c></c></p>
+<p style="Normal" xid="120" props="text-align:left; dom-dir:ltr">Rows matched: 1  Changed: 1  Warnings: 0<c></c></p>
+<p style="Normal" xid="121" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="122" props="text-align:left; dom-dir:ltr">mysql&gt; SELECT stu_lname FROM student WHERE stu_id=2;<c></c></p>
+<p style="Normal" xid="123" props="text-align:left; dom-dir:ltr">+-----------+<c></c></p>
+<p style="Normal" xid="124" props="text-align:left; dom-dir:ltr">| stu_lname |<c></c></p>
+<p style="Normal" xid="125" props="text-align:left; dom-dir:ltr">+-----------+<c></c></p>
+<p style="Normal" xid="126" props="text-align:left; dom-dir:ltr">| Stellar   |<c></c></p>
+<p style="Normal" xid="127" props="text-align:left; dom-dir:ltr">+-----------+<c></c></p>
+<p style="Normal" xid="128" props="text-align:left; dom-dir:ltr">1 row in set (0.00 sec)<c></c></p>
+<p style="Normal" xid="129" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="130" props="text-align:left; dom-dir:ltr">vi.<c></c></p>
+<p style="Normal" xid="131" props="text-align:left; dom-dir:ltr">mysql&gt; INSERT INTO activity (act_name, act_fee, act_start_date, act_end_date, act_note) VALUES ('Archery', '399.00', '2013-04-01', '2013-07-01', 'course materials included'),('Martial Arts', '599.00', '2013-05-01', '2013-08-01', 'additional course materials required');<c></c></p>
+<p style="Normal" xid="132" props="text-align:left; dom-dir:ltr">Query OK, 2 rows affected (0.00 sec)<c></c></p>
+<p style="Normal" xid="133" props="text-align:left; dom-dir:ltr">Records: 2  Duplicates: 0  Warnings: 0<c></c></p>
+<p style="Normal" xid="134" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="136" props="text-align:left; dom-dir:ltr">mysql&gt; SELECt * FROM activity;<c></c></p>
+<p style="Normal" xid="137" props="text-align:left; dom-dir:ltr">+--------+--------------------------+---------+----------------+--------------+--------------------------------------+<c></c></p>
+<p style="Normal" xid="138" props="text-align:left; dom-dir:ltr">| act_id | act_name                 | act_fee | act_start_date | act_end_date | act_note                             |<c></c></p>
+<p style="Normal" xid="139" props="text-align:left; dom-dir:ltr">+--------+--------------------------+---------+----------------+--------------+--------------------------------------+<c></c></p>
+<p style="Normal" xid="140" props="text-align:left; dom-dir:ltr">|      1 | basketball               |   15.15 | 2014-05-06     | 2014-08-06   | NULL                                 |<c></c></p>
+<p style="Normal" xid="141" props="text-align:left; dom-dir:ltr">|      2 | golf                     |   78.99 | 2014-05-06     | 2014-08-06   | NULL                                 |<c></c></p>
+<p style="Normal" xid="142" props="text-align:left; dom-dir:ltr">|      3 | skydiving                |   90.99 | 2014-05-06     | 2014-08-06   | NULL                                 |<c></c></p>
+<p style="Normal" xid="143" props="text-align:left; dom-dir:ltr">|      4 | pottery                  |   40.79 | 2014-05-15     | 2014-08-15   | NULL                                 |<c></c></p>
+<p style="Normal" xid="144" props="text-align:left; dom-dir:ltr">|      5 | underwater basketweaving |  999.99 | 2014-05-15     | 2014-08-15   | NULL                                 |<c></c></p>
+<p style="Normal" xid="145" props="text-align:left; dom-dir:ltr">|      6 | Archery                  |  399.00 | 2013-04-01     | 2013-07-01   | course materials included            |<c></c></p>
+<p style="Normal" xid="146" props="text-align:left; dom-dir:ltr">|      7 | Martial Arts             |  599.00 | 2013-05-01     | 2013-08-01   | additional course materials required |<c></c></p>
+<p style="Normal" xid="147" props="text-align:left; dom-dir:ltr">+--------+--------------------------+---------+----------------+--------------+--------------------------------------+<c></c></p>
+<p style="Normal" xid="148" props="text-align:left; dom-dir:ltr">7 rows in set (0.00 sec)<c></c></p>
+<p style="Normal" xid="149" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="100" props="text-align:left; dom-dir:ltr"><c></c></p>
+</section>
+</abiword>
